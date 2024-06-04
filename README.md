@@ -12,6 +12,14 @@ pip install -r requirements.txt
 ```
 ## Usage
 
+```
+python main.py train --train_file data/train.csv --vectorizer tfidf --vectorizer_params "{}" --model_file outputs/vectorizer.pkl
+```
+
+```
+python main.py pick_best --test_file data/test.csv --queries_file data/queries.csv --model_file vectorizer.pkl --distance cosine
+```
+
 ## Features
 
 ### Link parser
