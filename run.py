@@ -1,6 +1,6 @@
 import argparse
 import json
-from facade import TextVectorizationFacade
+from src.facade import TextVectorizationFacade
 
 def main():
     parser = argparse.ArgumentParser(description="Text vectorization and matching")

@@ -1,6 +1,6 @@
-from .vectorizer_factory import VectorizerFactory
-from .document_loader import DocumentLoader
-from .model_utils import save_model, load_model
+from src.vectorizer_factory import VectorizerFactory
+from src.document_loader import DocumentLoader
+from src.model_utils import save_model, load_model
 from sklearn.metrics.pairwise import cosine_distances, euclidean_distances, manhattan_distances
 import numpy as np
 
